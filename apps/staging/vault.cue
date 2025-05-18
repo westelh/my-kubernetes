@@ -8,7 +8,7 @@ bundle: {
 			values: {
 				repository: url: "https://helm.releases.hashicorp.com"
 				chart: {
-					name: "vault"
+					name:    "vault"
 					version: "0.28.1"
 				}
 				helmValues: {
@@ -21,7 +21,7 @@ bundle: {
 						}
 						auditStorage: enabled: false
 						ingress: {
-							enabled:          true
+							enabled: true
 							hosts: [{host: "localhost"}]
 							tls: [{
 								secretName: "vault-ingress-tls"

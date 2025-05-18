@@ -21,7 +21,7 @@ bundle: {
 			namespace: "flux-system"
 			values: {
 				artifact: {
-					url: "oci://ghcr.io/gimlet-io/capacitor-manifests"
+					url:    "oci://ghcr.io/gimlet-io/capacitor-manifests"
 					semver: "^0.4.8"
 				}
 				sync: {
