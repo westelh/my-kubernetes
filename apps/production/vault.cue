@@ -29,7 +29,6 @@ bundle: {
 						ingress: {
 							enabled:          true
 							annotations:      "cert-manager.io/cluster-issuer: letsencrypt-issuer"
-							ingressClassName: "nginx"
 							hosts: [{host: "vault.westelh.dev"}]
 							tls: [{
 								secretName: "vault-ingress-tls"

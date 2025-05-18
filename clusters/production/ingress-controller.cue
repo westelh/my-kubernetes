@@ -14,6 +14,7 @@ bundle: {
 				helmValues: {
 					controller: {
 						ingressClassResource: default: true
+						watchIngressWithoutClass: true
 						service: annotations: "oci.oraclecloud.com/load-balancer-type": "nlb"
 						metrics: {
 							enabled: true
